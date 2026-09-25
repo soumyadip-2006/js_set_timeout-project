@@ -3,8 +3,8 @@ var persent = document.querySelector("#persent")
 var growth = document.querySelector("#growth")
 var grow = 0;
 
-btn.addEventListener("click", function () {
-var int  =  setInterval(function () {
+btn.addEventListener("click", function(){
+    var int  =  setInterval(function () {
         console.log(grow);
 
         grow++
@@ -17,4 +17,4 @@ var int  =  setInterval(function () {
         btn.innerHTML = "Downloaded File"
         btn.style.opacity = 0.5;
     }, 10000);
-}
+})
